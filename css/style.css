@@ -13,12 +13,32 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+.conteudo-social {
+  background-color: #080324;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 25px;
+  z-index: 50;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+.conteudo-social a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 0.5em;
+}
+
 header {
   z-index: 1;
   background-color: #F9003D;
   height: 80px;
   position: fixed;
   width: 100vw;
+  top: 20px;
 }
 .conteudo-header {
   display: flex;
